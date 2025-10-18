@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <link rel="stylesheet" href="st.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>E-Learning</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <h2>Learn HTML</h2>
+        <p>HTML (HyperText Markup Language) is the backbone of every webpage. It structures the content of websites using a simple and flexible syntax.</p>
+        
+        <h3>1. Basic HTML Structure</h3>
+        <pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My First Web Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello, World!&lt;/h1&gt;
+        &lt;p&gt;This is my first webpage using HTML.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+        
+        <h3>2. Common HTML Elements</h3>
+        <ul>
+            <li><b>Headings:</b> <code>&lt;h1&gt; to &lt;h6&gt;</code></li>
+            <li><b>Paragraphs:</b> <code>&lt;p&gt;</code></li>
+            <li><b>Links:</b> <code>&lt;a href=""&gt;</code></li>
+            <li><b>Images:</b> <code>&lt;img src="" alt=""&gt;</code></li>
+            <li><b>Lists:</b> <code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code></li>
+            <li><b>Tables:</b> <code>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;</code></li>
+        </ul>
+        
+        <!-- YouTube Video Section -->
+        <section class="video-section">
+            <h3>Video Tutorials</h3>
+            <div class="video-container">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/qz0aGYrrlhU" allowfullscreen></iframe>
+                    <div class="video-title">HTML Crash Course For Absolute Beginners</div>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+                    <div class="video-title">HTML Fundamentals</div>
+                </div>
+            </div>
+        </section>
+        
+        <h3>3. Forms in HTML</h3>
+        <p>Forms allow user input through various elements like text fields, radio buttons, checkboxes, and submit buttons.</p>
+        <pre>&lt;form&gt;
+    &lt;label&gt;Name:&lt;/label&gt;
+    &lt;input type="text" name="name" required&gt;
+    &lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+        
+        <h3>4. Semantic HTML</h3>
+        <p>Semantic elements improve SEO and accessibility.</p>
+        <ul>
+            <li><code>&lt;header&gt;</code> - Represents introductory content</li>
+            <li><code>&lt;nav&gt;</code> - Navigation links</li>
+            <li><code>&lt;section&gt;</code> - Defines a section</li>
+            <li><code>&lt;article&gt;</code> - Self-contained content</li>
+            <li><code>&lt;footer&gt;</code> - Footer information</li>
+        </ul>
+        
+        <h3>5. HTML5 Features</h3>
+        <p>HTML5 introduced new elements and APIs for better user experience:</p>
+        <ul>
+            <li>Canvas API for graphics</li>
+            <li>Video & Audio elements</li>
+            <li>LocalStorage for storing data</li>
+            <li>Geolocation API</li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 E-Learning Platform</p>
+    </footer>
+</body>
+</html>

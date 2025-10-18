@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="st.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>E-Learning</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <h2>Learn CSS</h2>
+        <p>CSS (Cascading Style Sheets) is used to style and layout webpages. It transforms simple HTML elements into visually appealing designs that enhance user experience.</p>
+
+        <h3>1. CSS Selectors</h3>
+        <p>Selectors are patterns used to select and style HTML elements.</p>
+        <ul>
+            <li><b>Element Selector:</b> <code>p { color: blue; }</code></li>
+            <li><b>Class Selector:</b> <code>.box { background-color: red; }</code></li>
+            <li><b>ID Selector:</b> <code>#header { font-size: 20px; }</code></li>
+            <li><b>Group Selector:</b> <code>h1, h2, p { margin: 10px; }</code></li>
+        </ul>
+
+        <!-- CSS Selectors Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/l1mER1bV0N0" allowfullscreen></iframe>
+            <div class="video-title">CSS Selectors Explained</div>
+        </div>
+
+        <h3>2. CSS Box Model</h3>
+        <p>The Box Model consists of the following:</p>
+        <ul>
+            <li>Margin: Space outside the element</li>
+            <li>Border: Surrounds the padding and content</li>
+            <li>Padding: Space between content and border</li>
+            <li>Content: The actual content inside the element</li>
+        </ul>
+
+        <!-- Box Model Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/rIO5326FgPE" allowfullscreen></iframe>
+            <div class="video-title">CSS Box Model Tutorial</div>
+        </div>
+
+        <h3>3. CSS Flexbox</h3>
+        <p>Flexbox is used to create responsive layouts and align items within a container.</p>
+        <pre>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        </pre>
+
+        <!-- Flexbox Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/fYq5PXgSsbE" allowfullscreen></iframe>
+            <div class="video-title">Learn CSS Flexbox in 15 Minutes</div>
+        </div>
+
+        <h3>4. CSS Grid</h3>
+        <p>CSS Grid is great for creating two-dimensional layouts and complex designs.</p>
+        <pre>
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+        </pre>
+
+        <!-- CSS Grid Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/9zBsdzdE4sM" allowfullscreen></iframe>
+            <div class="video-title">CSS Grid Crash Course</div>
+        </div>
+
+        <h3>5. CSS Animations</h3>
+        <p>Animations make a website more interactive and engaging for users.</p>
+        <pre>
+@keyframes slideIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.box {
+    animation: slideIn 1s ease-in-out;
+}
+        </pre>
+
+        <!-- CSS Animations Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/YszONjKpgg4" allowfullscreen></iframe>
+            <div class="video-title">CSS Animations & Transitions Tutorial</div>
+        </div>
+
+        <h3>6. Media Queries</h3>
+        <p>Media queries make websites responsive for different screen sizes and devices.</p>
+        <pre>
+@media (max-width: 600px) {
+    body {
+        background-color: lightgray;
+    }
+}
+        </pre>
+
+        <!-- Media Queries Video Section -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/2KL-z9A56SQ" allowfullscreen></iframe>
+            <div class="video-title">CSS Media Queries and Responsive Design</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Learning Platform</p>
+    </footer>
+</body>
+</html>
